@@ -23,9 +23,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/helix-ui/dist/styles/helix-ui.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/helix-ui/dist/scripts/helix-ui.browser.min.js"
+            ]
           },
           "configurations": {
             "production": {

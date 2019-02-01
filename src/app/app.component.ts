@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dynamic-hx-tabs';
+  tabs: Array<Object>;
+
+  constructor() {
+    this.tabs = [
+      {name: 'Tab 1'},
+      {name: 'Tab 2'},
+    ];
+  }
+
+  addTab(tab) {
+    this.tabs.push(tab);
+  }
 }
